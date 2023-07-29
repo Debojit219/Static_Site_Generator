@@ -1,0 +1,280 @@
+/* left col */
+.leftcol {
+    margin-top: 30px !important;
+}
+.container-fluid {
+    width: 100%;
+}
+
+.leftcol {
+    padding: 50px !important;
+}
+.key {
+    color: #2b2b35;
+    font-family: Lexend Deca;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+.activity {
+    color: #2b2b35;
+    font-family: Lexend Deca;
+    font-size: 300%;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: -1.44px;
+    text-transform: uppercase;
+}
+.subActivity {
+    color: #2b2b35;
+    font-family: Lexend Deca;
+    font-size: 125%;
+    font-style: normal;
+    font-weight: 600;
+    padding: 30px 0;
+    letter-spacing: -0.48px;
+    text-transform: uppercase;
+}
+.message {
+    font-family: Lexend Deca;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #2b2b35;
+    padding: 10px 0;
+}
+
+#explore {
+    width: 249px;
+    height: 60px;
+    background-color: #d93a31;
+    font-family: Lexend Deca;
+    color: #ffff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Stats*/
+.stats {
+    margin: 20px;
+    width: 100%;
+}
+.morethan {
+    color: #2b2b35;
+    font-family: Lexend Deca;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px; /* 214.286% */
+    text-transform: uppercase;
+}
+.count {
+    color: #2b2b35;
+    font-family: Lexend Deca;
+    font-size: 400%;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 100px; /* 125% */
+    letter-spacing: -1.6px;
+    text-transform: uppercase;
+}
+.countof {
+    color: #2b2b35;
+    font-family: Lexend Deca;
+    font-size: 100%;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px; /* 214.286% */
+    text-transform: uppercase;
+}
+
+/*right col*/
+.rightcol {
+    position: relative;
+    top: 102px;
+    padding-top: 80px;
+}
+.innerrightcol {
+    margin-top: 100px;
+    position: relative;
+}
+.guy {
+    position: relative;
+    top: 2px;
+    left: 1px;
+    width: 100%;
+    flex-shrink: 0;
+}
+
+.backpack {
+    position: relative;
+    width: 100%;
+    flex-shrink: 0;
+    z-index: -5;
+}
+
+.lady {
+    position: relative;
+    width: 100%;
+    flex-shrink: 0;
+    /* z-index: -3; */
+}
+.innerleftcol,
+.innerrightcol {
+    padding: 0 !important;
+}
+
+/* FOOTER */
+.footer {
+    position: relative;
+    z-index: -99;
+    /* position: absolute;
+    bottom: 0px; */
+    background-color: #2b2b35;
+    width: 100vw;
+    padding: 22px 40px;
+}
+
+.svg {
+    width: 13%;
+    min-width: 42px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+}
+
+.content1 {
+    color: #b5b5c2;
+    font-family: Lexend Deca;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px; /* 100% */
+    letter-spacing: -0.28px;
+    text-transform: uppercase;
+}
+
+.content2 {
+    color: #fff;
+    font-family: Lexend Deca;
+    font-size: 120%;
+    font-style: normal;
+    font-weight: 700;
+    /* line-height: 100px; 416.667% */
+    letter-spacing: -0.48px;
+    text-transform: uppercase;
+}
+.accesibility,
+.type {
+    display: flex;
+}
+
+.price {
+    position: absolute;
+    top: 11%;
+    right: 5%;
+}
+
+.price p {
+    color: #9497a8;
+    font-family: Lexend Deca;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -0.4px;
+    text-transform: uppercase;
+    margin: 0;
+}
+.price .value {
+    color: #000;
+    font-family: Lexend Deca;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -0.4px;
+    text-transform: uppercase;
+    text-align: right;
+}
+
+/* LOGO */
+.logo {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    z-index: 99;
+    transform: translate(-50%, -50%);
+}
+
+/* Media query for mobile phones */
+@media (max-width: 991px) {
+    .leftcol {
+        padding-left: 20px !important;
+    }
+    .stats .col-6 {
+        padding: 0;
+    }
+
+    .activity {
+        font-size: 220%;
+    }
+
+    .subActivity {
+        font-size: 95%;
+    }
+    .message {
+        display: none;
+    }
+    .morethan {
+        font-size: 12px; /* Adjust the font size for smaller screens */
+        line-height: 24px; /* Adjust the line-height for smaller screens */
+    }
+
+    .count {
+        font-size: 250%; /* Adjust the font size for smaller screens */
+        line-height: 80px; /* Adjust the line-height for smaller screens */
+    }
+
+    .countof {
+        font-size: 80%; /* Adjust the font size for smaller screens */
+        line-height: 20px; /* Adjust the line-height for smaller screens */
+    }
+    .innerrightcol {
+        margin-top: 0; /* Remove margin-top for mobile phones */
+    }
+    .rightcol {
+        position: static;
+        margin: auto;
+        top: 0;
+        padding: 0;
+    }
+    .guy {
+        top: 3px;
+        left: 0px;
+    }
+
+    .price p {
+        font-size: 12px;
+    }
+    .price .value {
+        font-size: 12px;
+    }
+
+    .logo {
+        top: 50%;
+    }
+}
+
+/* Media query for tablets */
+@media (min-width: 768px) and (max-width: 991px) {
+    .innerrightcol {
+        margin-top: 0; /* Remove margin-top for tablets */
+    }
+}
