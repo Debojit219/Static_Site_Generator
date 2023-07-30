@@ -1,3 +1,6 @@
 .DS_Store
 referenceHTML.html
 global.css
+node_modules
+.parcel-cache
+.vscode
